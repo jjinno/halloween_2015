@@ -1,4 +1,4 @@
-#define FAN_PIN    9
+#define FAN_PIN    7
 #define LED_PIN    13
 
 void setup() {
