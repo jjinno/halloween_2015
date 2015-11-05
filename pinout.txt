@@ -1,22 +1,19 @@
-7	FET	CTRL
+// Bluetooth Module (nRF8001)
+#define ADAFRUITBLE_SCK           13
+#define ADAFRUITBLE_MISO          12
+#define ADAFRUITBLE_MOSI          11
+#define ADAFRUITBLE_REQ           10
+#define ADAFRUITBLE_RDY           2
+#define ADAFRUITBLE_RST           20
+#define ADAFRUITBLE_ACT           -1 // unused
 
-BLE UART FRIEND:
-8	BLE	RTS
-9	BLE	RX1
-10	BLE	TX1
-11	BLE	CTS
-12	BLE	MOD
+// Fan Control
+#define MOSFET_PIN                3
 
-BLE SPI FRIEND:
-6	BLE	RST
-8	BLE	CS
-9	BLE	IRQ
-11	BLE	MOSI
-12	BLE	MISO
-13	BLE	SCK
+// Microphone / SPL Meter
+#define SPARKFUN_VOL              A4
+#define SPARKFUN_GATE             A5
 
-16	LED	CLOCK
-17	LED	DATA
-
-18(A4)	MIC	GATE
-19(A5)	MIC	ENVELOPE
+// WS2801 LEDs
+#define DATA_PIN                  17 
+#define CLOCK_PIN                 16
