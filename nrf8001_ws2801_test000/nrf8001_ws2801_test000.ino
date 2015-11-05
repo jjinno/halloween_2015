@@ -260,7 +260,6 @@ void setup(void)
 void loop()
 {
   // Things that have to happen every loop...
-  readVolume();
   uart.pollACI();
 
   switch (g_Mode) {
